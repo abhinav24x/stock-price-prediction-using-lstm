@@ -40,7 +40,9 @@ Stock-Market-LSTM/
 ```
 
 ## 🖼️ Screenshots
-*(Add screenshots of your Streamlit Dashboard here)*
+<img width="1837" height="858" alt="image" src="https://github.com/user-attachments/assets/da29fea6-f06f-4f49-b033-5c01fdfe76b7" />
+<img width="1847" height="870" alt="image" src="https://github.com/user-attachments/assets/93ac274b-b1e1-4264-b959-bd5ccb68c1c8" />
+<img width="1792" height="727" alt="image" src="https://github.com/user-attachments/assets/b4d3cb08-61ed-4c95-a581-7d3f4ca2729f" />
 - Dashboard Overview
 - Interactive Candlestick Charts
 - Prediction Graphs
@@ -53,7 +55,7 @@ Stock-Market-LSTM/
    cd Stock-Market-LSTM
    ```
 
-2. **Create a virtual environment (Recommended)**
+2. **Create a virtual environment **
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use: venv\Scripts\activate
@@ -66,7 +68,7 @@ Stock-Market-LSTM/
 
 ## 💻 Usage
 
-### Streamlit Dashboard (Recommended)
+### Streamlit Dashboard 
 
 The easiest way to interact with the project is through the Streamlit UI.
 
@@ -93,7 +95,7 @@ python train.py --ticker AAPL --epochs 50 --batch_size 32
 python predict.py --ticker AAPL --days 7
 ```
 
-## 🧠 Model Explanation
+🧠 Model Explanation
 
 The core model is a multi-layer Long Short-Term Memory (LSTM) network.
 LSTMs are excellent for time-series forecasting as they can capture long-term dependencies in the data.
@@ -102,13 +104,13 @@ LSTMs are excellent for time-series forecasting as they can capture long-term de
 3. The LSTM learns the patterns from these 60-day sequences to predict the price on the 61st day.
 4. During inference for multi-day predictions, the model uses its own predictions as inputs to forecast further into the future.
 
-## 🔮 Future Improvements
+ 🔮 Future Improvements
 
 - Implementation of GRU and CNN-LSTM architectures for comparison.
 - Adding SHAP (SHapley Additive exPlanations) for model explainability.
 - Multi-stock correlation features.
 - Deployment via Docker.
 
-## 📄 License
+📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
