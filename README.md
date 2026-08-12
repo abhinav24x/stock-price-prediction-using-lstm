@@ -52,7 +52,7 @@ Stock-Market-LSTM/
    cd stock-price-prediction-using-lstm
    ```
 
-2. ***Create a virtual environment ***
+2. **Create a virtual environment**
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use: venv\Scripts\activate
