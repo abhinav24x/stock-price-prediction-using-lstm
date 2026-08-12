@@ -1,6 +1,6 @@
 # Stock Price Prediction System 📈
-
-A complete, production-ready Deep Learning solution for stock price prediction using LSTM Neural Networks. This system fetches historical market data, generates advanced technical indicators, trains an optimized LSTM model, and serves predictions via an interactive Streamlit dashboard.
+ 
+Deep Learning solution for stock price prediction using LSTM Neural Networks. This system fetches historical market data, generates advanced technical indicators, trains an optimized LSTM model, and serves predictions via an interactive Streamlit dashboard.
 
 ## 🌟 Features
 
@@ -23,7 +23,6 @@ Stock-Market-LSTM/
 ├── src/                   # Core ML Backend modules
 │   ├── __init__.py
 │   ├── config.py          # Hyperparameters and global settings
-│   ├── data_loader.py     # Alternative data loading module (handled in utils)
 │   ├── preprocessing.py   # Data scaling, sequence generation, cleaning
 │   ├── model.py           # Deep LSTM Architecture
 │   ├── trainer.py         # Training loop & callbacks
@@ -51,8 +50,8 @@ Stock-Market-LSTM/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/Stock-Market-LSTM.git
-   cd Stock-Market-LSTM
+   git clone https://github.com/abhinav24x/stock-price-prediction-using-lstm.git
+   cd stock-price-prediction-using-lstm
    ```
 
 2. **Create a virtual environment **
