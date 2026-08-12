@@ -42,9 +42,7 @@ Stock-Market-LSTM/
 <img width="1837" height="858" alt="image" src="https://github.com/user-attachments/assets/da29fea6-f06f-4f49-b033-5c01fdfe76b7" />
 <img width="1847" height="870" alt="image" src="https://github.com/user-attachments/assets/93ac274b-b1e1-4264-b959-bd5ccb68c1c8" />
 <img width="1792" height="727" alt="image" src="https://github.com/user-attachments/assets/b4d3cb08-61ed-4c95-a581-7d3f4ca2729f" />
-- Dashboard Overview
-- Interactive Candlestick Charts
-- Prediction Graphs
+- .
 
 ## 🚀 Installation
 
@@ -54,7 +52,7 @@ Stock-Market-LSTM/
    cd stock-price-prediction-using-lstm
    ```
 
-2. **Create a virtual environment **
+2. ***Create a virtual environment ***
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use: venv\Scripts\activate
