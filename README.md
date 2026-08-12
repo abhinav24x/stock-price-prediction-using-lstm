@@ -15,7 +15,7 @@ Deep Learning solution for stock price prediction using LSTM Neural Networks. Th
 ## 🏗️ Architecture & Folder Structure
 
 ```
-Stock-Market-LSTM/
+Stock-price-prediction-usinglstm/
 │
 ├── data/                  # Stores downloaded historical CSV data
 ├── models/                # Stores saved models (.keras) and fitted scalers (.pkl)
